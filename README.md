@@ -16,4 +16,7 @@ et pour les données géographiques, je pense qu'on peut utiliser les donénes d
 
 J'ai trouvé ce site pour la france : https://www.geodair.fr/donnees/consultation
 
-pour faire les stats descriptives j'ai trouvé https://www.data.gouv.fr/datasets/indice-de-la-qualite-de-lair-quotidien-par-commune-indice-atmo c'est des stats quotidiennes de la qualité de l'air par commune avec ça on pourra facilement faire la moyenne sur l'année
+pour faire les stats descriptives j'ai trouvé https://www.data.gouv.fr/datasets/indice-de-la-qualite-de-lair-quotidien-par-commune-indice-atmo c'est des stats quotidiennes de la qualité de l'air par commune avec ça on pourra facilement faire la moyenne sur l'année en plus y a une API c'est pratique à utiliser
+
+pour le niveau de vie il y a https://www.data.gouv.fr/datasets/niveau-de-vie-median-et-taux-de-pauvrete-par-type-de-menage/?utm_source=chatgpt.com qui a l'air très complet, il y a les données disponibles pour les communes mais aussi d'autres découpages administratrifs, normalement c'est possible de faire une jointure avec l'autre dataset en utilisant le code la commune, jepense que le mieux c'est d'abord de regarder le premier dataset, le transformer en une ligne par commmune avec juste 3 colonnes, la moyenne de qualité de l'air sur l'année et le code de la commune et le nom de la commune puis faire la jointure avec le deuxième dataset en utilisant le code de commune et éventuellement faire en sorte que y ait que 4 colonnes, niveau de vie, qualoté de l'air, nom de commune et le code de la commune
+
