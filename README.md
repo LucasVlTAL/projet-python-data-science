@@ -15,3 +15,5 @@ et pour les données géographiques, je pense qu'on peut utiliser les donénes d
 1er oje
 
 J'ai trouvé ce site pour la france : https://www.geodair.fr/donnees/consultation
+
+pour faire les stats descriptives j'ai trouvé https://www.data.gouv.fr/datasets/indice-de-la-qualite-de-lair-quotidien-par-commune-indice-atmo c'est des stats quotidiennes de la qualité de l'air par commune avec ça on pourra facilement faire la moyenne sur l'année
