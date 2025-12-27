@@ -4,4 +4,10 @@
 # Raw and processed data
 data/raw/
 data/processed/
+data_carreaux/
+notebooks/data_carreaux/
 **/data_carreaux/
+*.shp
+*.dbf
+*.shx
+*.prj
