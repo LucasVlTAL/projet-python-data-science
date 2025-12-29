@@ -1,12 +1,22 @@
 # Mac system files
 .DS_Store
 
-# Raw and processed data
-data/raw/
+# =========================
+# Données du projet
+# =========================
+
+# Données brutes : ON LES GARDE (reproductibilité)
+# data/raw/   <-- volontairement NON ignoré
+
+# Données nettoyées / finales : on les ignore
 data/processed/
+
+# Données géographiques lourdes (carreaux, shapefiles)
 data_carreaux/
 notebooks/data_carreaux/
 **/data_carreaux/
+
+# Fichiers SIG (très lourds)
 *.shp
 *.dbf
 *.shx
